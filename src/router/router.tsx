@@ -3,7 +3,7 @@ import { TodoListComponent } from "../home/todolist/TodoListComponent";
 
 export const router = createBrowserRouter([
     {
-        path: "/home",
+        path: "/",
         element: <TodoListComponent />
     },
 ])
